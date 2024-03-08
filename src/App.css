@@ -1,0 +1,66 @@
+.App {
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8; 
+  font-family: Arial, sans-serif;
+}
+
+.search-bar-container {
+  position: relative;
+  width: 1168px;
+  margin: 0 auto;
+  transform: translateY(-600px);
+}
+
+/* Search Input and Button */
+.search-bar-container form {
+  display: flex;
+}
+
+.search-bar-container input,
+.search-bar-container button {
+  padding: 14px 24px;
+}
+
+.search-bar-container input {
+  flex-grow: 1;
+  border: 1px solid #ddd;
+  border-radius: 0 0 0 16px;
+  font-size: 14px;
+}
+
+.search-bar-container button {
+  background-color: #181818;
+  color: white;
+  border: none;
+  border-radius: 0 0 16px 0;
+  font-size: 14px;
+}
+
+.suggestions-dropdown {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  width: 97%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  z-index: 1000;
+  padding: 10px;
+  box-sizing: border-box; 
+  margin-top: 10px;
+  font-size: 14px;
+  border-radius: 8px 8px 8px 8px;
+}
+
+
+/* Placeholder items style */
+.placeholder-item {
+  color: #aaa;
+}
