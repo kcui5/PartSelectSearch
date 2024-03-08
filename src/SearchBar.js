@@ -24,7 +24,7 @@ const SearchBar = () => {
       <form onSubmit={handleSubmit}>
         <input
           type="text"
-          placeholder="Search model or part number"
+          placeholder="Search Here..."
           value={searchTerm}
           onChange={handleSearchChange}
         />
